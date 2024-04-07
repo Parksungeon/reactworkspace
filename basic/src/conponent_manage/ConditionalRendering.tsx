@@ -70,4 +70,4 @@ export default function ConditionalRendering() {
             <ThreeTermComponent number={-1} />
         </>
     );
-}
+} 
