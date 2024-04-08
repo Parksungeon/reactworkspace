@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 // 상태(status) :
 // - 각각의 컴폰넌트가 가지는 데이터
@@ -9,6 +9,10 @@ export default function StateComponent() {
 
     // status 선언 :
     // - userState 함수로 함수를 선언할 수 있음
+    // - const [상태변수, 상태변경함수] = useState<상태변수타입>(초기값);
+
+    // let count = 0;
+    const [count] = useState
 
   return (
     <div>StateComponent</div>
