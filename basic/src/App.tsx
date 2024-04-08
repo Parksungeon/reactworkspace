@@ -4,11 +4,12 @@ import Component from './component/Component';
 import Sample from './component/Sample';
 import SignInContainer from './component/example/SignInContainer';
 import CurlyBraces from './component/CurlyBraces';
-import Properties from './component_manage/Properties';
-import SignUpContainer from './component_manage/example/SignUpContainer';
-import ConditionalRendering from './component_manage/ConditionalRendering';
-import ListRendering from './component_manage/ListRendering';
 import EventComponent from './interaction/EventComponent';
+import StateComponent from './interaction/StateComponent';
+import ListRendering from './conponent_manage/ListRendering';
+import ConditionalRendering from './conponent_manage/ConditionalRendering';
+import SignUpContainer from './conponent_manage/example/SignUpnContainer';
+import Properties from './conponent_manage/Properties';
 
 // JSX / TSX : 
 // JSX (JavaScript XML) / TSX (TypeScript XML)
@@ -83,7 +84,8 @@ function App() {
       {/* <Properties /> */}
       {/* <ConditionalRendering /> */}
       {/* <ListRendering /> */}
-      <EventComponent />
+      {/* <EventComponent /> */}
+      <StateComponent />
     </>
   );
 }
