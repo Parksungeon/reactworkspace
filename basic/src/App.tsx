@@ -2,14 +2,21 @@ import React from 'react';
 import './App.css';
 import Component from './component/Component';
 import Sample from './component/Sample';
-import SignInContainer from './component/example/SignInContainer';
+import SignInContainer1 from './component/example/SignInContainer';
 import CurlyBraces from './component/CurlyBraces';
+<<<<<<< HEAD
 import EventComponent from './interaction/EventComponent';
 import StateComponent from './interaction/StateComponent';
 import ListRendering from './conponent_manage/ListRendering';
 import ConditionalRendering from './conponent_manage/ConditionalRendering';
 import SignUpContainer from './conponent_manage/example/SignUpnContainer';
 import Properties from './conponent_manage/Properties';
+=======
+import Properties from './component_manage/Properties';
+import SignInContainer from './component_manage/example/SignInContainer';
+import ConditionalRendering from './component_manage/ConditionalRendering';
+import ListRendering from './component_manage/ListRendering';
+>>>>>>> 2a36c2971b425d71fdbe9e3b4c954ff8ca4d337d
 
 // JSX / TSX : 
 // JSX (JavaScript XML) / TSX (TypeScript XML)
@@ -79,13 +86,20 @@ function App() {
       <FunctionComponent /> */}
       {/* <Component />
       <Sample /> */}
+<<<<<<< HEAD
       {/* <SignUpContainer /> */}
+=======
+      <SignInContainer />
+>>>>>>> 2a36c2971b425d71fdbe9e3b4c954ff8ca4d337d
       {/* <CurlyBraces /> */}
       {/* <Properties /> */}
       {/* <ConditionalRendering /> */}
       {/* <ListRendering /> */}
+<<<<<<< HEAD
       {/* <EventComponent /> */}
       <StateComponent />
+=======
+>>>>>>> 2a36c2971b425d71fdbe9e3b4c954ff8ca4d337d
     </>
   );
 }

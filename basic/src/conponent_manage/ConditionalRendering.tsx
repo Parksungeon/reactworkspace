@@ -70,4 +70,8 @@ export default function ConditionalRendering() {
             <ThreeTermComponent number={-1} />
         </>
     );
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 2a36c2971b425d71fdbe9e3b4c954ff8ca4d337d

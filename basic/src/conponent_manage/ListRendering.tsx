@@ -63,4 +63,8 @@ export default function ListRendering() {
             {count.map(item => <h1 key={item}>반복 아이템</h1>)}
         </>
     );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2a36c2971b425d71fdbe9e3b4c954ff8ca4d337d
