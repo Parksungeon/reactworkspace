@@ -10,6 +10,7 @@ import ConditionalRendering from './conponent_manage/ConditionalRendering';
 import ListRendering from './conponent_manage/ListRendering';
 import EventComponent from './interaction/EventComponent';
 import StateComponent from './interaction/StateComponent';
+import ForwordingStateComponent from './interaction/ForwordingStateComponent';
 
 
 
@@ -87,7 +88,8 @@ function App() {
       {/* <ConditionalRendering /> */}
       {/* <ListRendering /> */}
       {/* <EventComponent /> */}
-      <StateComponent />
+      {/* <StateComponent /> */}
+      <ForwordingStateComponent />
     </>
   );
 }

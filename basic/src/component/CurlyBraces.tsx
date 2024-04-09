@@ -16,6 +16,6 @@ export default function  CurlyBraces() {
     return (
     <div style={{ color: 'red' }}>
         {10 + 20} {title}
-        </div>
+    </div>
     );
 }
