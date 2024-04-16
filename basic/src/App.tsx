@@ -4,17 +4,12 @@ import Component from './component/Component';
 import Sample from './component/Sample';
 import SignInContainer from './component/example/SignInContainer';
 import CurlyBraces from './component/CurlyBraces';
-import Properties from './conponent_manage/Properties';
-import SignUpContainer from './conponent_manage/example/SignUpContainer';
-import ConditionalRendering from './conponent_manage/ConditionalRendering';
-import ListRendering from './conponent_manage/ListRendering';
 import EventComponent from './interaction/EventComponent';
 import StateComponent from './interaction/StateComponent';
 import ForwordingStateComponent from './interaction/ForwordingStateComponent';
 import HookComponent1 from './hook/HookComponent1';
 import HookComponent2 from './hook/HookComponent2';
-
-
+import CustomHook from './hook/CustomHook';
 
 // JSX / TSX : 
 // JSX (JavaScript XML) / TSX (TypeScript XML)
@@ -93,7 +88,8 @@ function App() {
       {/* <StateComponent /> */}
       {/* <ForwordingStateComponent /> */}
       {/* <HookComponent1 /> */}
-      <HookComponent2 />
+      {/* <HookComponent2 /> */}
+      <CustomHook />
     </>
   );
 }

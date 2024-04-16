@@ -6,7 +6,7 @@ export default function HookComponent2() {
 
     // useRef : 
     // - DOM 객체를 직접 다루고자 할때 혹은 렌더링 없이 값을 변경 저장하고자 할때 사용
-    // const DOM객체참조변수 = useRef<DOM요소타입>();
+    // const DOM객체참조변수 = useRef<DOM요소타입>(초기값);
     // DOM 객체를 참조하기 위해서 useRef를 사용하면 참조할 요소의 ref={} 속성에 해당 참조변수를 지정해야함
     const inputRef = useRef<HTMLInputElement>(null);    // inputRef => HTMLInputElement | null
 
@@ -42,10 +42,3 @@ export default function HookComponent2() {
         </div>
     );
 }
-
-// zustand : 상태관리 라이브러리
-// react-router : SPA에서 url을 상태로 관리하는 라이브러리
-// axios : HTTP 통신 라이브러리
-// react-cookie : 브라우저의 쿠키를 관리하는 라이브러리
-
-// dayjs, chartjs, react-daum-postcode, socket-io
